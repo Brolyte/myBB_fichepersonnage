@@ -1,0 +1,91 @@
+.fp-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+  }
+  .fp-general-infos{ grid-area: 1 / 1 / 2 / 4; }
+  .fp-avatar{ grid-area: 1 / 1 / 3 / 2; }
+  .fp-summary { grid-area: 3 / 1 / 4 / 2; }
+  .fp-personality { grid-area: 2 / 2 / 3 / 4; }
+  .fp-appearance { grid-area: 3 / 3 / 3 / 4; }
+  .fp-history { grid-area: 4 / 4 / 4 / 4; }
+  
+
+/* fp-general-infos */
+.fp-charactername{}
+.fp-characterage{}
+.fp-birthdate{}
+.fp-birthplace{}
+.fp-characterlocation{}
+
+/* fp-summary */
+.fp-summary label{}
+.fp-summary textarea{}
+
+/* fp-personality */
+.fp-personality label{}
+.fp-personality textarea{}
+
+/* fp-summary */
+.fp-summary label{}
+.fp-summary textarea{}
+
+.fp-modele {
+                max-width: 700px;
+                margin: 30px auto;
+                background: #f9f9f9;
+                padding: 25px;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                font-family: Arial, sans-serif;
+            }
+            .fp-modele h2 {
+                margin-bottom: 20px;
+                font-size: 1.8em;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 5px;
+            }
+            .fp-modele label {
+                display: block;
+                margin: 15px 0 5px;
+                font-weight: bold;
+            }
+            .fp-modele input[type="text"],
+            .fp-modele input[type="number"],
+            .fp-modele input[type="date"],
+            .fp-modele input[type="file"],
+            .fp-modele textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                box-sizing: border-box;
+            }
+            .fp-modele textarea {
+                resize: vertical;
+            }
+            .fp-modele .btn-group {
+                display: flex;
+                gap: 10px;
+                margin-top: 20px;
+            }
+            .fp-modele input[type="submit"] {
+                flex: 1;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                padding: 12px 20px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 1em;
+            }
+            .fp-modele input[name="valider"]:hover {
+                background-color: #45a049;
+            }
+            .fp-modele input[name="sauvegarder"] {
+                background-color: #2196F3;
+            }
+            .fp-modele input[name="sauvegarder"]:hover {
+                background-color: #0b7dda;
+            }
