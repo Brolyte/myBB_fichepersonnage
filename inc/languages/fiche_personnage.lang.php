@@ -7,6 +7,7 @@ $l['fiche_personnage_not_allowed'] = "Tu n\as pas le droit de voir cette fiche!"
 $l['fiche_personnage_already_posted'] = "Tu as déjà posté une fiche!";
 $l['fiche_personnage_creation'] = "Créer une fiche de personnage";
 
+$l['fiche_personnage_characteravatar_url'] = "Avatar du personnage";
 $l['fiche_personnage_charactername'] = "Nom du personnage";
 $l['fiche_personnage_characterrole_placeholder'] = "Rôle du personnage";
 $l['fiche_personnage_characterage'] = "Âge du personnage";
