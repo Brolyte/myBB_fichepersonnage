@@ -28,7 +28,7 @@ function fiche_personnage_install()
     if (!$db->table_exists('fp_ficheid')) {
         $db->write_query("CREATE TABLE IF NOT EXISTS `" . TABLE_PREFIX . "fp_ficheid` (
           ".fichepersonnage_generate_table_fields("fp_ficheid")."
-          PRIMARY KEY (`ficheid`,`uid`,`charactername`,`age`,`birthdate`,`birthplace`,`role`,`location`,`summary`,`personality`,`appearance`,`fashionstyle`,`story`,`avatar_url`)
+          PRIMARY KEY (`ficheid`,`uid`,`charactername`,`characterage`,`characterbirthdate`,`characterbirthplace`,`characterrole`,`characterlocation`,`charactersummary`,`characterpersonality`,`characterappearance`,`characterfashionstyle`,`characterstory`,`characteravatar_url`)
         ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
         ");
     }
@@ -155,7 +155,6 @@ function fiche_personnage_uninstall()
 //All the activation processes go here
 function fiche_personnage_activate()
 {
-  global $db
 
 
 }
